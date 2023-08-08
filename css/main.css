@@ -201,3 +201,42 @@ header {
     display: none;
   }
 }
+
+/* === Banner === */
+#banner {
+  position: relative;
+  height: 100vh; /* follow the height of screen */
+  display: flex;
+  align-items: center;
+}
+.banner__heading {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--gray);
+}
+.banner__heading h1 {
+  font-size: 2.5rem;
+  padding-top: 1em;
+  margin-bottom: 0.8em;
+}
+
+@media (min-width: 63em) {
+  .banner__img {
+    position: absolute;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+    z-index: -1;
+  }
+  .banner__img img {
+    width: 30%;
+    height: 30%;
+  }
+  .banner__heading {
+    /* background-color: #fff; */
+    text-align: justify;
+    margin: 0;
+    padding-top: 0;
+  }
+}
