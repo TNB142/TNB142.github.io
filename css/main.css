@@ -121,9 +121,9 @@ header {
 }
 
 .navbar__btn {
+  margin-left: 42px;
   font-size: 1rem;
   background-color: var(--green);
-  margin-left: 45px;
 }
 
 /* menu icons */
@@ -200,14 +200,28 @@ header {
   .navbar__icons {
     display: none;
   }
+  .navbar__btn {
+    margin: 42px;
+    font-size: 1rem;
+    background-color: var(--green);
+  }
 }
 
 /* === Banner === */
-#banner {
+#about {
   position: relative;
   height: 100vh; /* follow the height of screen */
   display: flex;
   align-items: center;
+}
+.banner__img {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+.banner__img img {
+  width: 40%;
 }
 .banner__heading {
   max-width: 50%;
