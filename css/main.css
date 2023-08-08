@@ -121,9 +121,9 @@ header {
 }
 
 .navbar__btn {
-  margin-left: 42px;
   font-size: 1rem;
   background-color: var(--green);
+  margin-left: 45px;
 }
 
 /* menu icons */
@@ -201,12 +201,13 @@ header {
     display: none;
   }
   .navbar__btn {
-    margin: 42px;
+    margin: 45px;
+    background-color: var(--gray);
   }
 }
 
 /* === Banner === */
-#about {
+#banner {
   position: relative;
   height: 100vh; /* follow the height of screen */
   display: flex;
@@ -236,7 +237,6 @@ header {
 @media (min-width: 63em) {
   .banner__img {
     position: absolute;
-    /* background-color: red; */
     display: flex;
     justify-content: flex-end;
     z-index: -1;
@@ -246,7 +246,6 @@ header {
     height: 30%;
   }
   .banner__heading {
-    /* background-color: #fff; */
     text-align: justify;
     margin: 0;
     padding-top: 0;
