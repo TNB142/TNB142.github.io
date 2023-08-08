@@ -417,17 +417,19 @@ header {
 }
 .contact__body {
   text-align: center;
-  color: #fff;
   padding-bottom: 1.5em;
 }
 .contact__body i {
   padding-right: 3px;
 }
 .contact__body a {
+  list-style: none;
+  text-decoration: none;
   padding-bottom: 0.4em;
   padding-right: 1em;
   /* display: flex; */
   justify-content: flex-start;
+  color: #fff;
 }
 
 .contact__body a:hover {
