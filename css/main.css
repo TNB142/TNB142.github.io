@@ -372,6 +372,7 @@ header {
   display: inline-flex;
 }
 .lanuage_code div {
+  padding-left: 3px;
   color: orange;
 }
 .github_project {
@@ -384,6 +385,7 @@ header {
 }
 .github_project a:hover {
   color: var(--green);
+  transition: var(--smooth);
 }
 .github_project i {
   margin-right: 3px;
@@ -426,4 +428,5 @@ header {
 
 .contact__body a:hover {
   color: var(--green);
+  transition: var(--smooth);
 }
