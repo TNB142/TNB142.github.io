@@ -12,6 +12,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #fafafa;
 }
 
 img {
@@ -68,15 +69,15 @@ button:hover {
 header {
   position: absolute;
   width: 100%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
 }
-
 /* menu container*/
 .navbar__links {
   position: fixed;
@@ -104,6 +105,7 @@ header {
 
 .navbar__link a {
   text-decoration: none;
+  font-size: 20px;
   color: #fff;
   font-weight: 300;
   transition: var(--smooth);
@@ -229,14 +231,16 @@ header {
 
 @media (min-width: 63em) {
   .banner__img {
+    /* background-color: #3f3d56; */
     position: absolute;
     display: flex;
     justify-content: flex-end;
+    width: 1100px;
     z-index: -1;
   }
   .banner__img img {
-    width: 30%;
-    height: 30%;
+    width: 35%;
+    height: 35%;
   }
   .banner__heading {
     text-align: justify;
