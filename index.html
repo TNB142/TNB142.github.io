@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Praise&family=Roboto:ital,wght@0,400;1,300&display=swap"
       rel="stylesheet"
     />
+
     <!-- main css -->
     <link rel="stylesheet" href="./css/main.css" />
     <title>Protfolio</title>
@@ -27,14 +28,15 @@
           <div></div>
           <div>
             <ul class="navbar__links">
-              <li class="navbar__link"><a href="#">About</a></li>
-              <li class="navbar__link"><a href="#">Publication</a></li>
-              <li class="navbar__link"><a href="#">Project</a></li>
-              <li class="navbar__link"><a href="#">CV</a></li>
-              <a href="#"><button class="navbar__btn">Contact</button></a>
+              <li class="navbar__link"><a href="#about">About</a></li>
+              <li class="navbar__link"><a href="#public">Publications</a></li>
+              <li class="navbar__link"><a href="#project">Projects</a></li>
+              <!-- <li class="navbar__link"><a href="#cv">CV</a></li> -->
+              <a href="#contact"
+                ><button class="navbar__btn">Contact</button></a
+              >
             </ul>
           </div>
-
           <!-- menu icon -->
           <div class="navbar__icons">
             <div class="navbar__icon"></div>
@@ -44,7 +46,7 @@
     </header>
 
     <!-- banner -->
-    <section id="banner">
+    <section id="about">
       <div class="container">
         <!-- img -->
         <div class="banner__img">
@@ -72,6 +74,239 @@
         </div>
       </div>
     </section>
+    <!-- publication -->
+    <section id="public">
+      <div class="container">
+        <div class="public__heading">
+          <h1>Publications</h1>
+        </div>
+        <div class="public_table">
+          <table class="table_styles">
+            <tbody>
+              <tr>
+                <th class="paper_image" scope="row">
+                  <img src="./img/paper_1.png" alt="image paper" />
+                </th>
+                <td>
+                  <div class="paper_nam">
+                    <h3>
+                      The Object detection by the combination of generic roi
+                      extractor and dynamic R-CNN with side-aware boundary
+                      localization in aerial images
+                    </h3>
+                    <p>
+                      Bao Tran Nguyen * , Tai Pham Tan , Doanh C. Bui , Nguyen
+                      D. Vo and Khang Nguyen
+                    </p>
+                  </div>
+                  <div class="paper_link">
+                    <a
+                      href="https://ctujs.ctu.edu.vn/index.php/ctujs/article/view/477"
+                    >
+                      <button class="paper_link_btn">paper</button></a
+                    >
+                    <button class="paper_link_btn" onclick="showOrHide1()">
+                      Bib
+                    </button>
+                    <div id="Show_Bib_code1">
+                      <code data-lang="bibtext"
+                        ><div class="top_bib">
+                          <p class="top_article">@article</p>
+                          <p>{tran2023object,</p>
+                        </div>
+                        <div class="body_bib">
+                          <div class="body_text">
+                            title = {The Object detection by the combination of
+                            generic roi extractor and dynamic R-CNN with
+                            side-aware boundary localization in aerial images},
+                          </div>
+                          <div class="body_text">
+                            author =
+                            <p class="body_body_text">
+                              {Tran, Nguyen Bao and divham, Tan Tai and Bui, Cao
+                              Doanh and Vo, Nguyen D and Nguyen, Khang}
+                            </p>
+                            ,
+                          </div>
+                          <div>
+                            <div class="body_text">
+                              journal =
+                              <p class="body_body_text">
+                                {Can Tho University Journal of Science}
+                              </p>
+                              ,
+                            </div>
+                          </div>
+                          <div>
+                            <div class="body_text">
+                              volume =
+                              <p class="body_body_text">{15}</p>
+                              ,
+                            </div>
+                          </div>
+                          <div>
+                            <div class="body_text">
+                              number =
+                              <p class="body_body_text">{1}</p>
+                              ,
+                            </div>
+                          </div>
+                          <div>
+                            <div class="body_text">
+                              pages =
+                              <p class="body_body_text">{49--57}</p>
+                              ,
+                            </div>
+                          </div>
+                          <div class="body_text">
+                            year =
+                            <p class="body_body_text">{2023}</p>
+                            ,
+                          </div>
+                        </div>
+                        <div>
+                          <p>}</p>
+                        </div>
+                      </code>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th class="paper_image" scope="row">
+                  <img src="./img/paper_2.png" alt="image paper" />
+                </th>
+                <td>
+                  <div class="paper_nam">
+                    <h3>
+                      Empirical Study of Real-time One-Stage Object Detection
+                      Methods on Recyclable Waste Dataset
+                    </h3>
+                    <p>
+                      Nguyen D. Vo; Bao N. Tran; Huyen Ngoc N. Van; Khanh B.T.
+                      Duong; Thinh V. Le; Nghia Nguyen
+                    </p>
+                  </div>
+                  <div class="paper_link">
+                    <a
+                      href="https://ctujs.ctu.edu.vn/index.php/ctujs/article/view/477"
+                    >
+                      <button class="paper_link_btn">paper</button></a
+                    >
+                    <button class="paper_link_btn" onclick="showOrHide2()">
+                      Bib
+                    </button>
+                    <div id="Show_Bib_code2">
+                      <code data-lang="bibtext"
+                        ><div class="top_bib">
+                          <p class="top_article">@article</p>
+                          <p>{vo2022empirical,</p>
+                        </div>
+                        <div class="body_bib">
+                          <div class="body_text">
+                            title = {Nguyen D. Vo; Bao N. Tran; Huyen Ngoc N.
+                            Van; Khanh B.T. Duong; Thinh V. Le; Nghia Nguyen},
+                          </div>
+                          <div class="body_text">
+                            author =
+                            <p class="body_body_text">
+                              {Nguyen D. Vo; Bao N. Tran; Huyen Ngoc N. Van;
+                              Khanh B.T. Duong; Thinh V. Le; Nghia Nguyen}
+                            </p>
+                            ,
+                          </div>
+                          <div>
+                            <div class="body_text">
+                              booktitle =
+                              <p class="body_body_text">
+                                {Nguyen D. Vo; Bao N. Tran; Huyen Ngoc N. Van;
+                                Khanh B.T. Duong; Thinh V. Le; Nghia Nguyen}
+                              </p>
+                              ,
+                            </div>
+                          </div>
+                          <div>
+                            <div class="body_text">
+                              pages =
+                              <p class="body_body_text">{268--273}</p>
+                              ,
+                            </div>
+                          </div>
+                          <div class="body_text">
+                            year =
+                            <p class="body_body_text">{2022}</p>
+                            ,
+                          </div>
+                        </div>
+                        <div>
+                          <div class="body_text">
+                            organization =
+                            <p class="body_body_text">{IEEE}</p>
+                            ,
+                          </div>
+                        </div>
+                        <div>
+                          <p>}</p>
+                        </div>
+                      </code>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- Current Project -->
+    <section id="project">
+      <div class="container">
+        <div class="project__heading">
+          <h1>Current Projects</h1>
+        </div>
+        <div class="project__body">
+          <h3>2023</h3>
+          <div class="project__body_title">
+            <h2>
+              Enhancing Scene Text Detection With A Novel Contrastive
+              Language–Image Pre-training Approach and Cascade Double Head Mask
+              RCNN
+            </h2>
+          </div>
+          <p>
+            Improving Scene-text Detection: Fine-tuning Cascade Mask RCNN for
+            Enhanced Performance
+          </p>
+          <p>Experimenting a New Approach with oCLIP Backbone</p>
+          <div class="lanuage_code">
+            Language code:
+            <div>Python</div>
+          </div>
+          <div class="github_project">
+            <a
+              href="https://github.com/UIT-Together-Research-Group/K2020-KLTN-Scene-Text-Detection-Using-A-Segmentation-Method"
+              ><i class="fa-brands fa-github"></i>Github</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="contact" class="sticky_footer">
+      <div class="container">
+        <div class="contact__heading">
+          <h3>Stay in touch</h3>
+        </div>
+        <div class="contact__body">
+          <a><i class="fa-solid fa-phone"></i>+84934021940</a>
+          <a><i class="fa-solid fa-envelope"></i>baotrannguyentiu@gmail.com</a>
+          <a><i class="fa-brands fa-linkedin"></i>bao-n-tran</a>
+          <a><i class="fa-brands fa-github"></i>tnb142</a>
+        </div>
+      </div>
+    </footer>
+
     <!-- fontawsome -->
     <script
       src="https://kit.fontawesome.com/c1671c1882.js"
