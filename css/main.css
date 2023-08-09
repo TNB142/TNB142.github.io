@@ -411,7 +411,7 @@ header {
 }
 .lanuage_code div {
   padding-left: 3px;
-  color: orange;
+  color: blue;
 }
 .github_project {
   padding-top: 0.1em;
@@ -449,6 +449,9 @@ header {
   .project__body_title h2 {
     font-size: 2rem;
     color: var(--gray);
+  }
+  .lanuage_code div {
+    color: orange;
   }
 }
 
