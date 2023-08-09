@@ -85,7 +85,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 60%;
+  width: 70%;
   height: 100%;
   background-color: var(--gray);
   z-index: 5;
@@ -222,10 +222,13 @@ header {
   width: 40%;
 }
 .banner__heading {
-  max-width: 50%;
+  max-width: 70%;
   margin: 0 auto;
   text-align: center;
   color: var(--gray);
+}
+.banner__heading p {
+  text-align: justify;
 }
 .banner__heading h1 {
   font-size: 2.5rem;
@@ -248,6 +251,7 @@ header {
     height: 35%;
   }
   .banner__heading {
+    width: 50%;
     text-align: justify;
     margin: 0;
     padding-top: 0;
@@ -291,9 +295,11 @@ header {
   margin: 0 auto;
   text-align: justify;
   color: var(--gray);
+  justify-content: center;
+  width: 90%;
 }
 .table_styles {
-  width: 100%;
+  /* width: 100%; */
   margin-bottom: 1rem;
   color: var(--gray);
 }
@@ -362,6 +368,9 @@ header {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
       rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
+  .public_table {
+    width: 100%;
+  }
 }
 /* === Project === */
 #project {
@@ -380,6 +389,7 @@ header {
   text-align: justify;
 }
 .project__body {
+  width: 90%;
   margin: 0 auto;
   text-align: justify;
   color: var(--gray);
@@ -453,6 +463,9 @@ header {
   .lanuage_code div {
     color: orange;
   }
+  .project__body {
+    width: 100%;
+  }
 }
 
 /* === footer === */
@@ -486,8 +499,7 @@ header {
   list-style: none;
   text-decoration: none;
   padding-bottom: 0.4em;
-  padding-right: 1em;
-  /* display: flex; */
+  display: flex;
   justify-content: flex-start;
   color: #fff;
 }
@@ -499,5 +511,9 @@ header {
 @media (min-width: 63em /*==992px*/) {
   .sticky_footer {
     padding-top: 0em;
+  }
+  .contact__body a {
+    padding-right: 3em;
+    display: inline-flex;
   }
 }
