@@ -207,7 +207,7 @@ header {
 
 /* === About === */
 #about {
-  height: 100vh; /* follow the height of screen */
+  height: 120vh; /* follow the height of screen */
   display: flex;
   align-items: center;
 }
@@ -220,6 +220,9 @@ header {
 }
 .banner__img img {
   width: 40%;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 .banner__heading {
   max-width: 70%;
@@ -267,6 +270,7 @@ header {
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
       rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 30px;
   }
 }
 
