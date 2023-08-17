@@ -219,6 +219,7 @@ header {
   /* z-index: -1; */
 }
 .banner__img img {
+  background-color: var(--gray);
   width: 40%;
   border-radius: 100%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
